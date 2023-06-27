@@ -53,6 +53,8 @@ add_fruit = streamlit.text_input('What fruit would you like add?','jackfruit')
 streamlit.write('The user entered ', add_fruit)
 streamlit.write('Thanks for adding ', add_fruit)
 
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+
 
 
 
