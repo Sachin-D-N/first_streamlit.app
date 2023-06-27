@@ -46,8 +46,8 @@ try :
       
     # write your own comment - converts in to dataframe
     streamlit.dataframe(fruit_choice)
- except URLError as e:
-    streamlit.error()
+except URLError as e:
+  streamlit.error()
 
 
 
