@@ -45,7 +45,7 @@ try :
     back_from_function=get_fruity_wise_data(fruit_choice)
       
     # write your own comment - converts in to dataframe
-    streamlit.dataframe(fruit_choice)
+    streamlit.dataframe(back_from_function)
 except URLError as e:
   streamlit.error()
 
